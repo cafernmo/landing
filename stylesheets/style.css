@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.title-head {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  background-color: #20646D;
+  padding: 0 20px;
+  color: white;
+  max-font-weight: 300;
+  font-size: 20px;
+}
+.subheader {
+  display: flex;
+  background-image: url('../img/slider.png');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: #20646D;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.container {
+  text-align: center;
+  margin: 25vh
+}
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.container>p {
+  font-size: 20px;
+  margin: 26px 0;
+  padding: 0 200px;
+  line-height: 1.6;
+}
+.button-call {
+  height: 66px;
+  width: 305px;
+  border-radius: 10px;
+  background-color: #E0D2D9;
+  font-size: 25px;
+  font-weight: 400;
+  color: #20646D;
+}
+.container-ben {
+  background-color: #FBF7F7;
+  color: #545454;
+  display: flex;
+  flex-direction: column;
+
+}
+.container-ben>h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 43px;
+}
+.cont-card {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+.card {
+  display: flex;
+  width: 30%;
+  height: 250px;
+  background-color: red;
+}
